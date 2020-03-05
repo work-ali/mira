@@ -7,7 +7,7 @@ export default function Button() {
   const classes = buttonStyles();
   return (
     <Grid item xs={12} className={classes.btn_wrapper}>
-        <button className={classes.btn_primary}>
+        <button className={`${classes.btn_primary} btn-primary`}>
            Next
         </button>
     </Grid>

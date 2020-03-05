@@ -2,11 +2,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const selectionStyles = makeStyles(theme => ({
     container: {
-        maxWidth: 1090,
+        maxWidth: 1140,
         marginLeft: 'auto',
         marginRight: 'auto',
-        paddingLeft: 15,
-        paddingRight: 15
+        paddingLeft: 40,
+        paddingRight: 40
     },
     title_content: {
         textAlign: 'center',

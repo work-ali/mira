@@ -22,3 +22,23 @@ body {
         padding: 8px;
     }
 }
+@media (max-width: 480px){
+    body .selection-title {
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 12px;
+    }
+    body .selection-subTitle {
+        font-size: 18px;
+    }
+    body .selection-title-content {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    body .btn-primary {
+        height: 48px;
+        font-size: 18px;
+    }
+}
+
+

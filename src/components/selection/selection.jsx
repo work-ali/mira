@@ -29,9 +29,9 @@ export default function Selection() {
   return (
     <Grid container className={classes.main_body}>
         <Grid  container item xs={12} className={classes.container}>
-            <Grid item xs={12} className={classes.title_content}>
+            <Grid item xs={12} className={`${classes.title_content} selection-title-content`}>
                 <h1 className={`${classes.title} selection-title`}>How can we help you?</h1>
-                <h4 className={classes.sub_title}>Pick a condition</h4>
+                <h4 className={`${classes.sub_title} selection-subTitle`}>Pick a condition</h4>
             </Grid>
             <Grid container item spacing={2} className={classes.item_list}>
                 {data.map(item => 
