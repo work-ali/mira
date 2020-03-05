@@ -38,6 +38,7 @@ body {
     body .btn-primary {
         height: 48px;
         font-size: 18px;
+        width: 200px;
     }
 }
 
