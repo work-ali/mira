@@ -32,7 +32,7 @@ export default function Selection() {
     <Grid container className={classes.main_body}>
         <Grid  container item xs={12} className={classes.container}>
             <Grid item xs={12} className={classes.title_content}>
-                <h1 className={classes.title}>How can we help you?</h1>
+                <h1 className={`${classes.title} selection-title`}>How can we help you?</h1>
                 <h4 className={classes.sub_title}>Pick a condition</h4>
             </Grid>
             <Grid container item spacing={2} className={classes.item_list}>

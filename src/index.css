@@ -12,13 +12,13 @@ body {
     box-shadow: 0 0.6rem 1.2rem rgba(34,144,8,.29) !important;
 }
 @media (max-width: 640px){
-    body .makeStyles-title-111 {
+    body .selection-title {
         font-size: 30px !important;
         line-height: 1.2 !important;
     }
 }
 @media (max-width: 640px){
-    body .makeStyles-paper-115 {
+    body .box-wrapper {
         padding: 8px;
     }
 }

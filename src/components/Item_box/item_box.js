@@ -11,7 +11,7 @@ export default function ItemBox({ item_data, handleClick }) {
     <React.Fragment>
         
         <Grid item lg={2} md={3} xs={4} className={classes.box_wrapper} onClick={() => handleClick(id)}>
-            <Paper className={`${classes.paper} ${active ? "active" : null}`} >
+            <Paper className={`${classes.paper} ${active ? "active" : null} box-wrapper`} >
                 <img className={classes.box_img} src={img}/>
                 <span className={classes.box_text}>{text}</span>
             </Paper>
