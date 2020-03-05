@@ -14,11 +14,9 @@ export default function Selection() {
 
   useEffect(() => {
     setData(content)
-    
   });
 
   const handleClick = id => {
-    
     const item = data.filter(item => item.id === id);
     const newData = [...data];
     newData.map(i => i.active = false)
