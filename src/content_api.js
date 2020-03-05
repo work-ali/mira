@@ -44,7 +44,8 @@ const content = [
     {
         id: "8",
         img: "./images/allergies.png",
-        text: "Allergies"
+        text: "Allergies",
+        active: false
     },
     {
         id: "9",

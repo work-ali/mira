@@ -13,6 +13,7 @@ export const boxStyles = makeStyles(theme => ({
       },
       box_img: {
         maxWidth: 60,
+        minHeight: 60,
         display: 'block',
         marginLeft: 'auto',
         marginRight: 'auto'
